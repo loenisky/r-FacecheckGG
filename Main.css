@@ -53,7 +53,7 @@ body .content input[type=text]:hover,
 body .content input[type=password]:hover,
 .side .spacer input:hover,
 body .content input[type=url]:hover {
-    border-color: #fff
+    border-color: #2c8c3e
 }
 
 body .content .text:focus,
@@ -3185,8 +3185,8 @@ body.mod-toolbox .tb-action-button {
 .submit-page #newlink.submit.content ul.tabmenu.formtab {
     position: relative;
     padding: 0;
-    border: none;
-    background: #0079D3;
+    border: 2px solid #262626;
+    background: #212121;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
 }
@@ -3228,7 +3228,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .submit-page .roundfield span.title {
-    color: #292f34;
+    color: #5c5c5c;
     text-transform: capitalize
 }
 
@@ -3254,15 +3254,17 @@ body.mod-toolbox .tb-action-button {
 }
 
 .content.submit .info-notice {
-    background: #edf1f3;
+    background: #212121;
     padding: 16px;
-    border: none;
+    border: 2px solid #262626;
+    color: #fff;
     margin-bottom: 0
 }
 
 #items-required {
     padding-bottom: 0!important;
-    padding-top: 15px
+    padding-top: 15px;
+    color: #212121;
 }
 
 .submit-page #newlink.submit.content .btn {
@@ -3287,6 +3289,17 @@ body.mod-toolbox .tb-action-button {
 body #newlink-with-image-upload .file-upload-button {
     padding-right: 18px;
     line-height: 37px
+}
+
+#newlink-with-image-upload .image-upload-drop-target {
+    position: relative;
+    content: '';
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border: 2px dashed #5c5c5c !important;
+    background-color: #212121 !important;
+    text-align: center;
 }
 
 #new-link-image-input > div:first-of-type {
@@ -4216,6 +4229,12 @@ body.other-discussions-page > .content,
     padding: 16px;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
+}
+
+.roundfield label, .roundfield p {
+    font-size: smaller;
+    padding-right: 2px;
+    color: #fff
 }
 
 .commentarea > .sitetable > .comment,
