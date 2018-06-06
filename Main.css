@@ -717,7 +717,7 @@ body .content .sitetable .link .title a:hover {
     visibility: visible;
     position: relative;
     top: -1px;
-    color: #98abba;
+    color: #5c5c5c;
     transition: all .15s ease
 }
 
@@ -961,7 +961,7 @@ body .content .sitetable .link .title a:hover {
 .entry .buttons li a,
 .entry .buttons li {
     padding: 0 1px;
-    color: #98abba;
+    color: #5c5c5c;
     font-weight: 400;
     font: 13px Lato, Arial, sans-serif;
     transition: all .15s ease
@@ -1094,7 +1094,7 @@ body .content .sitetable .link .title a:hover {
 
 .link .entry .buttons li .redditSingleClick {
     padding: 0 1px;
-    color: #98abba;
+    color: #5c5c5c;
     font: normal 13px Lato, Arial, sans-serif;
     transition: all .15s ease
 }
@@ -1282,13 +1282,13 @@ b {
 .organic-listing .help {
     margin-bottom: 20px;
     margin-right: 16px;
-    color: #98abba
+    color: #5c5c5c
 }
 
 .organic-listing .sponsored-tagline {
     margin-bottom: 20px;
     margin-right: 16px;
-    color: #98abba
+    color: #5c5c5c
 }
 
 .link.compressed {
@@ -2137,8 +2137,9 @@ div.titlebox span.number:after {
 }
 
 .disabled .morelink a {
-    color: rgba(0, 0, 0, 0.32);
-    font-size: 14px
+    font-size: 14px;
+    background: #212121;
+    border: 2px solid #262626
 }
 
 .morelink .nub {
@@ -2178,15 +2179,24 @@ div.titlebox span.number:after {
     padding-bottom: 8px
 }
 
+.login-form-side #remember-me {
+    float: left;
+    line-height: 24px;
+    margin-left: 5px;
+    color: #FFF;
+}
+
 .login-form-side input[type=text],
 .login-form-side input[type=password] {
-    width: 136px;
+    width: 280px;
+    height: 50px;
+    background: #353535;
+    border: 1px solid #404040
     margin: 0
 }
 
 .login-form-side input[type=text] {
-    margin-left: 0;
-    margin-right: 16px
+
 }
 
 .login-form-side button.btn {
@@ -2401,7 +2411,7 @@ div.titlebox span.number:after {
 }
 
 .commentarea .menuarea span.dropdown-title.lightdrop {
-    color: #98abba
+    color: #5c5c5c
 }
 
 .commentarea .menuarea span.dropdown-title.lightdrop:first-letter {
@@ -2414,7 +2424,7 @@ div.titlebox span.number:after {
 
 .commentarea .menuarea .toggle a,
 .help-hoverable {
-    color: #98abba;
+    color: #5c5c5c;
     font-weight: 400
 }
 
@@ -2460,7 +2470,7 @@ div.titlebox span.number:after {
 }
 
 .usertext .bottom-area a.reddiquette {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .commentarea .usertext-edit .md {
@@ -2553,11 +2563,11 @@ div.titlebox span.number:after {
 .comment .expand {
     background: none;
     transition: all .15s ease;
-    color: #98abba
+    color: #5c5c5c
 }
 
 .comment .expand:hover {
-    color: #98abba;
+    color: #5c5c5c;
     text-decoration: none;
     background: #edf1f3
 }
@@ -2995,7 +3005,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .comment .flat-list li a {
-    color: #98abba;
+    color: #5c5c5c;
     font-weight: 400;
     font-size: 10px
 }
@@ -3039,7 +3049,7 @@ body.mod-toolbox .tb-action-button {
 
 .comments-page .side .linkinfo .date,
 .other-discussions-page .side .linkinfo .date {
-    color: #98abba
+    color: #5c5c5c
 }
 
 .comments-page .side .linkinfo .date:first-letter,
@@ -3435,7 +3445,7 @@ body #newlink-with-image-upload .file-upload-button {
 .combined-search-page .search-result-subreddit .search-subscribe-button .remove,
 .combined-search-page .search-result-subreddit .search-subscribe-button .remove:active {
     background: transparent;
-    border: 1px solid #98abba;
+    border: 1px solid #5c5c5c;
     color: #738491
 }
 
@@ -3491,7 +3501,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .searchfacets .facet.count {
-    color: #98abba;
+    color: #5c5c5c;
     font-weight: 400
 }
 
@@ -3534,7 +3544,7 @@ body #newlink-with-image-upload .file-upload-button {
     background: transparent;
     border-radius: 0;
     padding: 10px 16px 11px;
-    color: #98abba
+    color: #5c5c5c
 }
 
 .wiki-page .pageactions .wikiaction-current {
@@ -3572,7 +3582,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .wiki-page .wiki-page-content em {
-    color: #98abba
+    color: #5c5c5c
 }
 
 .wiki-page .wiki-page-content .wikirevisionlisting table tr:hover {
@@ -3582,14 +3592,14 @@ body #newlink-with-image-upload .file-upload-button {
 .linefield,
 .linefield.mobile {
     background: #fff;
-    color: #98abba;
+    color: #5c5c5c;
     margin: 0 0 16px;
     width: 528px;
     border: none
 }
 
 .linefield .title {
-    color: #24a0ed;
+    color: #2c8c3e;
     text-transform: capitalize;
     padding: 0
 }
@@ -3604,7 +3614,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .usertext .bottom-area a {
-    color: #98abba
+    color: #5c5c5c
 }
 
 .usertext .bottom-area a:hover {
@@ -3650,7 +3660,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .tabpane-content .flairrow a.author {
-    color: #98abba
+    color: #5c5c5c
 }
 
 .tabpane-content .tagline a {
@@ -3759,7 +3769,7 @@ ul.image-preview-list li {
     border-radius: 0;
     font: normal 12px Lato, Arial, sans-serif;
     background: transparent;
-    color: #98abba;
+    color: #5c5c5c;
     padding-left: 0;
     margin-right: inherit
 }
@@ -3810,7 +3820,8 @@ ul.image-preview-list li {
 .footer {
     border: 0 solid;
     border-radius: 2px;
-    background: rgba(43, 51, 58, 0.64);
+    background: #212121;
+    border: 2px solid #262626;
     padding: 16px;
     max-width: 640px
 }
@@ -3822,11 +3833,11 @@ ul.image-preview-list li {
 
 .flat-vert.title,
 .bottommenu a {
-    color: rgba(255, 255, 255, 0.7)
+    color: #2c8c3e
 }
 
 .bottommenu {
-    color: rgba(255, 255, 255, 0.42)
+    color: #fff
 }
 
 .debuginfo,
