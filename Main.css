@@ -660,7 +660,7 @@ body > .content .link .rank,
 }
 
 .thumbnail[data-href-url*="reddit.com"] {
-    background: #24a0ed url(%%spritesheet%%) -152px -104px
+    background: #2c8c3e url(%%spritesheet%%) -152px -104px
 }
 
 .thumbnail[data-href-url*="reddit.com"] img {
@@ -689,7 +689,7 @@ body > .content .link .rank,
 }
 
 body .content .sitetable .link .title a:hover {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .thing .title.loggedin.click,
@@ -706,7 +706,7 @@ body .content .sitetable .link .title a:hover {
 
 .thing .title.loggedin.click:visited,
 .thing .title.click:visited {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .link .domain {
@@ -722,7 +722,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .domain a:hover {
-    color: #24a0ed;
+    color: #2c8c3e;
     text-decoration: none
 }
 
@@ -922,7 +922,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .tagline .userattrs .submitter {
-    background: #24a0ed
+    background: #2c8c3e
 }
 
 .tagline .userattrs .friend {
@@ -968,7 +968,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .entry .buttons li a:hover {
-    color: #24a0ed;
+    color: #2c8c3e;
     text-decoration: none
 }
 
@@ -1333,7 +1333,7 @@ body > .content .link.compressed .midcol {
 .flairselector h2 {
     margin-bottom: 4px;
     background: none;
-    color: #24a0ed;
+    color: #2c8c3e;
     text-align: left;
     text-transform: capitalize;
     font-weight: 400;
@@ -1369,7 +1369,7 @@ body > .content .link.compressed .midcol {
 .flairoptionpane ul li .linkflair a.title {
     font-size: 18px!important;
     opacity: 100!important;
-    color: #24a0ed!important
+    color: #2c8c3e!important
 }
 
 .flairselector form {
@@ -1390,7 +1390,7 @@ body > .content .link.compressed .midcol {
 .flairselector form .flairselection .linkflair a.title {
     font-size: 18px!important;
     opacity: 100!important;
-    color: #24a0ed!important;
+    color: #2c8c3e!important;
     cursor: default
 }
 
@@ -1404,7 +1404,7 @@ body > .content .link.compressed .midcol {
 .flairselector form .flairselection .flairremove a {
     visibility: visible;
     opacity: 100!important;
-    color: #24a0ed!important;
+    color: #2c8c3e!important;
     margin-left: -4px;
     text-transform: capitalize
 }
@@ -2291,7 +2291,7 @@ div.titlebox span.number:after {
     padding: 0 16px;
     background: #FFF;
     border-radius: 2px;
-    color: #24a0ed;
+    color: #2c8c3e;
     font-weight: 700;
     display: block;
     margin: 1.5em 0;
@@ -2343,7 +2343,7 @@ div.titlebox span.number:after {
 
 .sidebox.create .morelink a {
     font-size: 14px;
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .sidebox .spacer {
@@ -2370,7 +2370,7 @@ div.titlebox span.number:after {
     display: block;
     margin: 0;
     padding: 10px 0;
-    color: #24A0ED;
+    color: #2c8c3e;
     content: "Subreddit CSS Theme by /r/Naut";
     font: 16px Lato, Arial, sans-serif;
     position: absolute;
@@ -2430,7 +2430,7 @@ div.titlebox span.number:after {
 
 .commentarea .menuarea .toggle a:hover,
 .help-hoverable:hover {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .help-hoverable {
@@ -2563,13 +2563,13 @@ div.titlebox span.number:after {
 .comment .expand {
     background: none;
     transition: all .15s ease;
-    color: #5c5c5c
+    color: #2c8c3e;
+    padding-left: 5px;
 }
 
 .comment .expand:hover {
     color: #5c5c5c;
     text-decoration: none;
-    background: #edf1f3
 }
 
 .comment.collapsed a.expand:after {
@@ -2591,13 +2591,13 @@ div.titlebox span.number:after {
 }
 
 .comment .author {
-    color: #292f34;
+    color: #FFF;
     margin-right: 0;
     font-weight: 700
 }
 
 .comment .author:hover {
-    color: #24a0ed;
+    color: #2c8c3e;
     text-decoration: none
 }
 
@@ -2960,11 +2960,12 @@ body.mod-toolbox .tb-action-button {
 }
 
 .comment .usertext .md {
-    color: #292f34
+    color: #5c5c5c;
+    padding-left: 10px;
 }
 
 .md a {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .md a:visited {
@@ -3011,18 +3012,18 @@ body.mod-toolbox .tb-action-button {
 }
 
 .comment .flat-list li a:hover {
-    color: #24a0ed;
+    color: #2c8c3e;
     text-decoration: none
 }
 
 .comment .flat-list li a[onclick*="reply"] {
-    color: #24a0ed;
+    color: #2c8c3e;
     font-weight: 700;
     font-size: 11px
 }
 
 .deepthread a {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .morecomments a {
@@ -3419,7 +3420,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .combined-search-page .search-result .search-result-header .search-title {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .combined-search-page .search-result .search-result-meta {
@@ -3428,7 +3429,7 @@ body #newlink-with-image-upload .file-upload-button {
 
 .combined-search-page .search-result a,
 .combined-search-page .search-result a > mark {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .combined-search-page .search-result-subreddit .search-subscribe-button {
@@ -3450,7 +3451,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .combined-search-page .search-result .search-comments {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .search-result.has-thumbnail > .thumbnail {
@@ -3549,8 +3550,8 @@ body #newlink-with-image-upload .file-upload-button {
 
 .wiki-page .pageactions .wikiaction-current {
     padding: 10px 16px 9px;
-    border-bottom: 2px solid #24a0ed;
-    color: #24a0ed
+    border-bottom: 2px solid #2c8c3e;
+    color: #2c8c3e
 }
 
 .wiki-page .pageactions .wikiaction:hover,
@@ -3618,7 +3619,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .usertext .bottom-area a:hover {
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .pretty-form {
@@ -3650,7 +3651,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .tabmenu li.selected a {
-    color: #24a0ed;
+    color: #2c8c3e;
     background: none;
     border: none
 }
@@ -4032,7 +4033,7 @@ html.res-commentBoxes .comment {
 .res .RESshortcutside:hover,
 .res .RESDashboardToggle:hover {
     background-color: transparent;
-    color: #24a0ed
+    color: #2c8c3e
 }
 
 .res #progressIndicator {
