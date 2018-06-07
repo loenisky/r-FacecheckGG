@@ -1377,7 +1377,8 @@ a.author.moderator:after {content: "";}
  
 /*Body and post appearance*/
 .link {
-    margin-bottom: 0px;
+    margin: 5px;
+    border: 2px solid #262626;
  }
  
 body:not(.comments-page) div.content .entry {
@@ -1898,7 +1899,6 @@ body:not(.submit-page) .tabmenu::after {
 div.content {
     border-radius: 4px;
     margin: 15px 335px 10px 16px;
-    border: 2px solid #262626;
     background-color: #212121;
     font-size: 14px;
     color: #5c5c5c;
