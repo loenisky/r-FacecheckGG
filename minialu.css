@@ -3,13 +3,13 @@ span.pagename.redditname a {
     color: transparent;
     display: block;
     width: 100%; /*DO NOT CHANGE - TWEAK HEIGHT INSTEAD*/
-    height: 50px;
+    height: 70px;
     background-image: url(%%sublogo%%);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     position: absolute;
-    top: 80px;
+    top: 60px;
  }
  
 /*HEADER C EXCLUSIVE CODE*/
@@ -60,7 +60,7 @@ a {
 
 #header { 
    background : url(%%banner%%) no-repeat fixed;
-   background-size: 100%;
+   background-size: 110%;
    background-position: top center
 }
  
@@ -467,7 +467,7 @@ ul#image-preview-list {
 #search input[type="text"],
 .md textarea,
 textarea,
-body {font-family: -apple-system, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;}
+body {font-family: 'Varela Round', sans-serif;}
  
  
 /*RES TEMP BUGFIX*/
@@ -886,18 +886,25 @@ body:not(.search-page) .menuarea {
 }
 .comments-page .content .infobar {
     border: 0px none;
-    background: #fff;
-    max-width: 300px;
     padding: 10px 20px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 11px;
     border-radius: 4px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.24);
     margin-top: 30px;
-    margin-left: -10px !important;
     margin-bottom: 15px;
  }
+
+ .commentsignupbar__container {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    min-height: 106px;
+    padding: 40px 9px;
+    text-align: center;
+    background: #212121 !important;
+    max-width: 508px;
+}
  
 .panestack-title a.title-button {
     position: relative;
@@ -2522,7 +2529,7 @@ body.comments-page .sitetable {z-index: 3;}
         width: 258px;
      }
  
-    .login-form-side #remember-me * {vertical-align: middle;}
+    .login-form-side #remember-me * {vertical-align: middle; color:#FFF;}
  
     .login-form-side .submit {
         float: right;
@@ -2844,7 +2851,7 @@ color.
 .commentarea .thing .md ol,
 #siteTable .thing .md table,
 .commentarea .thing .md table {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Varela Round', sans-serif;
     margin: 20px 10px 10px 10px;
 }
 #siteTable .thing .md blockquote,
