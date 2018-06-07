@@ -655,23 +655,29 @@ body > .content .link .rank,
 }
 
 .thumbnail.default {
-    background: #d2dbe0 url(%%spritesheet%%) -152px -48px
+    background: #212121 url(%%spritesheet%%) -152px -48px;
+    border: 2px solid #2c8c3e;
 }
 
 .thumbnail.self {
-    background: #d2dbe0 url(%%spritesheet%%) -96px -48px
+    background: #212121 url(%%spritesheet%%) -96px -48px;
+    border: 2px solid #2c8c3e;
 }
 
 .thumbnail.image {
-    background: #d2dbe0 url(%%spritesheet%%) -208px -48px
+    background: #212121 url(%%spritesheet%%) -208px -48px;
+    border: 2px solid #2c8c3e;
 }
 
 .thumbnail.nsfw {
-    background: #e85881 url(%%spritesheet%%) -96px -104px
+    background: #212121 url(%%spritesheet%%) -96px -104px;
+    border: 2px solid #e85881
+
 }
 
 .thumbnail[data-href-url*="reddit.com"] {
-    background: #2c8c3e url(%%spritesheet%%) -152px -104px
+    background: #212121 url(%%spritesheet%%) -152px -104px;
+    border: 2px solid #2c8c3e
 }
 
 .thumbnail[data-href-url*="reddit.com"] img {
@@ -712,7 +718,7 @@ body .content .sitetable .link .title a:hover {
 
 .content .thing .title:visited,
 .content .thing.visited .title {
-    color: #738491
+    color: #fff
 }
 
 .thing .title.loggedin.click:visited,
@@ -871,9 +877,9 @@ body .content .sitetable .link .title a:hover {
     padding-left: 0;
     background-color: transparent;
     border: 0 solid;
-    border-top: 1px solid #edf1f3;
+    border-top: 2px solid #262626;
     border-radius: 0;
-    color: #292f34
+    color: #5c5c5c
 }
 
 .entry .tagline {
@@ -1082,7 +1088,7 @@ body .content .sitetable .link .title a:hover {
 
 .side .titlebox .tagline a.flairselectbtn,
 .leavemoderator a {
-    background: #FAFAFA;
+    background: #212121;
     border-radius: 2px;
     color: #738491;
     font: bold 11px Lato, Arial, sans-serif;
@@ -1216,7 +1222,7 @@ a.pretty-button.negative.pressed {
 
 ul.report-reasons {
     border-radius: 2px;
-    background: #FAFAFA;
+    background: #212121;
     border: none;
     padding: 8px;
     font-size: 12px;
@@ -1500,8 +1506,8 @@ body > .content .link.compressed .midcol {
 div.RES-keyNav-activeElement,
 div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
     background-color: transparent!important;
-    padding-left: 8px!important;
-    border-left: 3px solid #C2C2C2
+    padding-left: 20px!important;
+    border-left: 3px solid #262626
 }
 
 div.commentarea div.RES-keyNav-activeElement .md {
@@ -2253,6 +2259,14 @@ div.titlebox span.number:after {
     top: -3px
 }
 
+.titlebox form.toggle, .leavemoderator {
+    margin: 0;
+    padding: 5px 0px;
+    font-size: smaller;
+    color: #5c5c5c;
+    background: #212121 none no-repeat scroll center left;
+}
+
 .side .md .-blocks,
 .side .md .-lists,
 .side .md pre,
@@ -2354,7 +2368,9 @@ div.titlebox span.number:after {
 
 .sidebox.create .morelink a {
     font-size: 14px;
-    color: #2c8c3e
+    color: #2c8c3e;
+    border: 2px solid #262626;
+    background: #212121;
 }
 
 .sidebox .spacer {
@@ -2449,7 +2465,7 @@ div.titlebox span.number:after {
 }
 
 .commentarea > .usertext {
-    background: #FAFAFA;
+    background: #212121;
     margin: 0;
     padding: 16px;
     overflow: visible;
@@ -2520,6 +2536,10 @@ div.titlebox span.number:after {
     background: url(%%spritesheet%%) -112px -160px;
     height: 16px;
     width: 16px
+}
+
+.entry.res-selected, .entry.res-selected .md-container {
+    background-color: #212121 !important;
 }
 
 .user-gilded > .entry .gilded-icon:before {
@@ -3053,7 +3073,7 @@ body.mod-toolbox .tb-action-button {
     padding: 16px;
     width: 320px;
     height: 98px;
-    background: #fff;
+    background: #212121;
     border-radius: 2px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
     border: none
@@ -3071,7 +3091,7 @@ body.mod-toolbox .tb-action-button {
 
 .comments-page .side .linkinfo .score,
 .other-discussions-page .side .linkinfo .score {
-    color: #292f34;
+    color: #fff;
     margin-top: 8px
 }
 
@@ -3096,7 +3116,7 @@ body.mod-toolbox .tb-action-button {
 
 .comments-page .side .linkinfo .shortlink input,
 .other-discussions-page .side .linkinfo .shortlink input {
-    background-color: #FAFAFA;
+    background-color: #212121;
     border: none;
     border-radius: 0 0 2px 2px;
     margin: 0 -16px;
@@ -3999,7 +4019,7 @@ ul.image-preview-list li {
     max-width: 98px;
     overflow: hidden;
     max-height: 15px;
-    background-color: #FAFAFA;
+    background-color: #212121;
     transition: all .35s ease
 }
 
@@ -4037,7 +4057,7 @@ html.res-commentBoxes .comment {
 }
 
 .res .titlebox .tagline {
-    margin-top: 6px
+
 }
 
 .res .RESshortcutside,
