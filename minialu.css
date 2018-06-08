@@ -208,28 +208,63 @@ div#RESStyleSheetTipPane-header {border: none !important;}
  
 .commentNavSortType:hover, .commentarea .menuarea .toggle a:hover{text-decoration: none !important;}
  
-.roundfield textarea, .roundfield input[type="url"], .roundfield input[type="text"] {transition: 300ms; border: 1px solid #404040; border-bottom: 1px solid #ccc; font-size: 20px; height: 25px; background: #353535}
+.roundfield textarea, .roundfield input[type="url"], .roundfield input[type="text"] {
+    transition: 300ms; 
+    border: 1px solid #404040; 
+    border-bottom: 1px solid #ccc; 
+    font-size: 20px; 
+    height: 25px; 
+    background: #353535}
  
     .commentarea textarea:not(:focus):not(:hover) {
-        background-color: #212121 !important;
-        border: 2px solid #262626 !important;
-        margin-top: 15px
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
+        margin-top: 15px;
     }
  
     .commentarea textarea:hover, .roundfield textarea:hover, .roundfield input[type="url"]:hover, .roundfield input[type="text"]:hover {
-        background-color: #212121 !important;
-        border: 2px solid #262626 !important;
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
         margin-top: 15px;
     }
  
  
-    .roundfield input[type=url]:focus,.roundfield input[type=text]:focus,.roundfield textarea:focus,#img-name:focus {border-bottom: 2px solid;}
+    .roundfield input[type=url]:focus,.roundfield input[type=text]:focus,.roundfield textarea:focus,#img-name:focus {
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
+        margin-top: 15px;
+    }
  
-    .usertext-edit textarea:hover{border: 1px solid #999;}
+    .usertext-edit textarea:hover{
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
+        margin-top: 15px;
+    }
  
-    .usertext-edit textarea:focus {border-top: 1px solid #e1e1e1 !important; border-left: 1px solid #e1e1e1 !important; border-right: 1px solid #e1e1e1 !important; border-bottom: 3px solid;}
+    .usertext-edit textarea:focus {
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
+        margin-top: 15px;
+    }
  
-    .usertext-edit textarea {transition: 200ms; height: 100px; font-size: 1em; border: 1px solid #ccc;}
+    .usertext-edit textarea {transition: 200ms; 
+        height: 100px; 
+        font-size: 1em;
+        background-color: #353535 !important;
+        border: 1px solid #404040 !important;
+        color: white;
+        padding: 15px;
+        margin-top: 15px;}
  
  
  
@@ -629,7 +664,7 @@ body.res #header-bottom-right #mail.havemail {top: -1px !important;}
 }
  
 /*GENERAL RES FIXES*/
-.livePreview, .livePreview .md {text-transform: none;}
+.livePreview, .livePreview .md {text-transform: none; color:#fff;}
  
 .RESDialogSmall.livePreview {
     margin: 15px 0px;
@@ -637,6 +672,7 @@ body.res #header-bottom-right #mail.havemail {top: -1px !important;}
  
 .new-comment .usertext-body {
     border: none !important;
+    background-color:transparent !important;
  }
  
 /*AD fixes*/
@@ -1024,8 +1060,18 @@ body.comments-page .sitetable {
     padding: 16px 16px 1px 16px;
  }
  
-.res .commentarea .thing {padding:15px 15px 0px !important}
- 
+.res .commentarea .thing {
+    padding:15px 15px 0px !important;
+    background: #212121 !important;
+    border: 2px solid #262626 !important;
+}
+
+.comments-page .res-filterline {
+    background: #212121;
+    border: 2px solid #262626;
+    margin-bottom: 15px;
+}
+
 .commentarea .thing.collapsed {padding: 10px 15px 10px !important;}
  
 .res .commentarea .entry .flat-list {padding-bottom: 8px;}
@@ -1037,7 +1083,7 @@ body.comments-page .sitetable {
     padding: 4px;
     margin-left: 2px !important;
     margin-top: 15px;
-    border: 1px solid #fff !important;
+    border: 2px solid #262626 !important;
  }
  
 body.comments-page div.content {border: none !important;}
@@ -1427,7 +1473,8 @@ body {background: #212121;}
 .entry.RES-keyNav-activeElement div.md, .commentarea .entry.RES-keyNav-activeElement div.noncollapsed, .entry.RES-keyNav-activeElement .usertext-body, .new-comment .usertext-body .md {
     outline: medium none !important;
     border: 0px none !important;
-    color: #5c5c5c;
+    padding: 5px;
+    color: #fff;
  }
  
 /*RES Never Ending Reddit*/
@@ -2094,6 +2141,12 @@ body:not(.search-page) #search input[type=text] {
     padding: 10px !important;
     display: block;
  }
+
+ .linklisting .md, .commentarea .md {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+ }
  
 .nextprev a, .next-suggestions a {font-weight: normal !important;}
  
@@ -2102,6 +2155,7 @@ body:not(.search-page) #search input[type=text] {
 .link .usertext-body .md {
     border: none !important;
     background: none !important;
+    color: #fff;
  }
  
  
@@ -2645,7 +2699,10 @@ form#image-upload.image-upload {
  
 .footer .col {margin: 10px 0px 30px 0px;}
  
-.footer {border: 0 solid;}
+.footer {
+    border: 2px solid #262626;
+    margin-bottom: 40px;
+}
  
 .col {border: none !important;}
  
@@ -2799,7 +2856,7 @@ color.
  
         .commentarea span.score, .comment .flat-list li a:hover,.comment .flat-list li a[onclick*=reply],.commentNavSortType:hover,.commentarea .menuarea .toggle a:hover,.entry .buttons .may-blank,.error,.link .domain a:hover,.link .entry .buttons li a:hover,.loadFlat:hover,.submit-page .roundfield a,.thing .title,#progressIndicator a#NERStaticLink,.deepthread a,.deepthread::after,.linefield .title
  
-        {color:#FFF}
+        {color:#2c8c3e !important}
  
  
         .roundfield input[type=url]:focus,.roundfield input[type=text]:focus,.roundfield textarea:focus,.usertext-edit textarea:focus,#img-name:focus,.roundfield input[type="url"]:focus,.flairlist .flair-jump input[type="text"]:focus, .RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container
@@ -3028,7 +3085,7 @@ html[lang="dm"] .thing .title {color: #fff !important}
  
 html[lang="dm"] input[name="uh"] ~ a:after {display: none}
  
-html[lang="dm"] .entry .buttons .may-blank {color: #fff}
+html[lang="dm"] .entry .buttons .may-blank {color: transparent;}
  
 html[lang="dm"] a.comments::after {color: #ccc!important}
  
@@ -3177,37 +3234,46 @@ html[lang="dm"] .comments-page .content .infobar {
  }
  
 html[lang="dm"]     .commentarea textarea:not(:focus):not(:hover) {
-    background-color: #212121 !important;
-    border: 2px solid #262626 !important;
-    margin-top: 15px
+    background-color: #353535 !important;
+    border: 1px solid #404040 !important;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
     }
  
 html[lang="dm"]     .commentarea textarea:hover,
 html[lang="dm"] .roundfield textarea:hover,
 html[lang="dm"] .roundfield input[type="url"]:hover,
 html[lang="dm"] .roundfield input[type="text"]:hover {
-    background-color: #212121 !important;
-    border: 2px solid #262626 !important;
-    margin-top: 15px
+    background-color: #353535 !important;
+    border: 1px solid #404040 !important;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
 }
  
 html[lang="dm"] textarea,
 html[lang="dm"] .roundfield input[type="text"],
 html[lang="dm"] .roundfield input[type="url"] {
-    background-color: #222!important;
-    color:#353535!important;
+    background-color: #353535 !important;
+    border: 1px solid #404040 !important;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
     transition: 300ms;
     transition: 300ms;
-    border: 1px solid #404040;
 }
  
 html[lang="dm"] .usertext-edit textarea:focus,
 html[lang="dm"] .roundfield textarea:focus,
 html[lang="dm"] .roundfield input[type="url"]:focus,
 html[lang="dm"] .roundfield input[type="text"]:focus {
-    border: 1px solid #666;
+    background-color: #353535 !important;
+    border: 1px solid #404040 !important;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
     transition: 0.1s ease;
-    border-bottom: 3px solid #999 !important;
 }
  
 html[lang="dm"] .toc ul {background: transparent;}
