@@ -88,7 +88,7 @@ a {
     position: absolute;
     left: 0;
     right: 0;
-    top: 135px;
+    top: 175px;
     background: none;
  }
  
@@ -1289,6 +1289,7 @@ body:not(.submit-page) .tabmenu::after {display: none;}
 
 .md-container-small .md, .side .md {
     color: #5c5c5c;
+    font-size: 14px;
 }
  
 .titlebox {text-align: center;}
@@ -1698,9 +1699,17 @@ h2 {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500 !important;
-    color: #444;
+    color: #2c8c3e;
     padding: 0px 16px;
 }
+
+.side div.views {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500 !important;
+    color: #fff;
+}
+
  .linkinfo .score .number {
     font-size: 14px;
     text-align: left;
@@ -1709,10 +1718,11 @@ h2 {
  .linkinfo .totalvotes {font-size: 100%;}
  
 .linkinfo {
-    border: none !important;
-    background-color: #fff;
+    border: 2px solid #262626;
+    background-color: #212121;
     top: 375px;
-    font-family: inherit !important;
+    right: 16px;
+    font-family: inherit!important;
     padding: 0px;
     position: absolute;
     box-shadow: 0 1px 5px rgba(0,0,0,0.08);
@@ -1736,16 +1746,16 @@ h2 {
 }
  
 .linkinfo .shortlink input {
-    box-shadow: none !important;
-    font-family: monospace !important;
-    transition: all 0.15s ease 0s !important;
+    box-shadow: none!important;
+    font-family: monospace!important;
+    transition: all 0.15s ease 0s!important;
     font-size: 14px;
-    color: white;
-    border: medium none;
+    color: #2c8c3e;
+    border: 1px solid #2c8c3e;
     width: 280px;
-    background: #444;
+    background: #212121;
     border-radius: 0px 0px 4px 4px;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
 }
  
@@ -2025,7 +2035,8 @@ body:not(.comments-page) > .content .link .midcol, .midcol-spacer {margin: 10px 
 body:not(.search-page) #search input[type=text] {
     border-radius: 6px;
     padding:9px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #404040;
+    background-color: #353535;
     text-align: center;
     transition: 300ms;
  }
@@ -2146,6 +2157,7 @@ body:not(.search-page) #search input[type=text] {
     margin-top: 5px;
     margin-bottom: 5px;
     color: #fff;
+    padding: 5px;
  }
  
 .nextprev a, .next-suggestions a {font-weight: normal !important;}
@@ -2880,15 +2892,15 @@ color.
  
         /*DEFAULT*/
  
-        .thing .md table thead tr th,.morelink,.side .titlebox .md h3 a,.tabmenu,.wiki-page-content .md table thead tr th {background:#444}
+        .thing .md table thead tr th,.morelink,.side .titlebox .md h3 a,.tabmenu,.wiki-page-content .md table thead tr th {background:#2c8c3e}
  
         /*HOVER - LIGHTER SHADE OF DEFAULT COLOR*/
  
-        .morelink:hover,.side .titlebox .md h3 a:hover {background:#666}
+        .morelink:hover,.side .titlebox .md h3 a:hover {background:#053225}
  
         /*ACTIVE - DARKER SHADE OF DEFAULT COLOR*/
  
-        .morelink:active, .side .titlebox .md h3 a:active {background: #222;}
+        .morelink:active, .side .titlebox .md h3 a:active {background: #053225;}
  
 /*END CHANGE COLOR SCHEME*/
  
