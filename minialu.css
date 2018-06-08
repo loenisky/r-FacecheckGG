@@ -392,7 +392,15 @@ body .content .over18 .entry .buttons li.reported-stamp {
 .res-commentBoxes .nestedlisting > .comment {margin: 0 0 8px!important;}
  
 .res-commentBoxes .nestedlisting .comment {overflow: visible!important;}
- 
+
+.res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #212121 !important;
+}
+
+.res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #212121 !important;
+}
+
 .dropdown.srdrop .selected {color: white;}
  
 .flat-list li a.gold {color: gold;}
