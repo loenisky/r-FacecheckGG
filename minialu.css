@@ -3,7 +3,7 @@ span.pagename.redditname a {
     color: transparent;
     display: block;
     width: 100%; /*DO NOT CHANGE - TWEAK HEIGHT INSTEAD*/
-    height: 70px;
+    height: 100px;
     background-image: url(%%sublogo%%);
     background-size: contain;
     background-position: center center;
@@ -539,7 +539,7 @@ body {font-family: 'Varela Round', sans-serif;}
 }
 
 .thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self {
-    background: url(%%icons%%) !important;
+    background: url(%%greenicons%%) !important;
     background-size: 50px 502px !important;
 }
  
@@ -2646,7 +2646,7 @@ body:not(.comments-page) .stickied .entry .buttons li + li {color: #2B8B27 !impo
 body:not(.comments-page) .over18 .link .tagline,
 body:not(.comments-page) .over18 .tagline,
 body:not(.comments-page) .over18 .entry .buttons li a,
-body:not(.comments-page) .over18 .entry .buttons li + li {color: #D10023!important;}
+body:not(.comments-page) .over18 .entry .buttons li + li {color:!important;}
  
 /*UPPER RIGHT RES THINGY*/
 .res #RESShortcutsEditContainer, .res #sr-more-link {background: transparent;}
