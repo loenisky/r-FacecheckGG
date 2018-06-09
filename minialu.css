@@ -313,7 +313,7 @@ a.madeVisible {margin-top: 20px;}
 img.RESImage {border-radius: 12px;}
 
 .comment-visits-box .title {
-    color: #5c5c5c;
+    color: #808080;
 }
  
 .gold-accent.comment-visits-box {color: black;}
@@ -1199,7 +1199,7 @@ div.sitetable.nestedlisting, div.child {box-shadow: none;}
     padding: 20px;
     border-radius: 4px;
     text-align: center;
-    color: #5c5c5c;
+    color: #808080;
  }
  
 #sr-more-link {background-color: #fff !important;}
@@ -1304,7 +1304,7 @@ body:not(.submit-page) .tabmenu::after {display: none;}
 .md-container {text-align: left;}
 
 .md-container-small .md, .side .md {
-    color: #5c5c5c;
+    color: #808080;
     font-size: 14px;
 }
  
@@ -1996,7 +1996,7 @@ div.content {
     margin: 15px 335px 10px 16px;
     background-color: #212121;
     font-size: 14px;
-    color: #5c5c5c;
+    color: #808080;
  }
  
 .midcol {margin-left: 0;}
@@ -2305,9 +2305,21 @@ div.leavemoderator {
     border-radius: 0 0 5px 5px;
     background: #212121;
     border: 1px solid #2c8c3e;
-    color: #5c5c5c;
+    color: #808080;
     border-top: 0;
     padding: 10px 10px 0px 26px;
+    margin: 0 0px 20px 0px;
+}
+
+.side .md h2 + p {
+    list-style-position: outside;
+    border-radius: 0 0 5px 5px;
+    background: #212121;
+    border: 1px solid #2c8c3e;
+    color: #808080;
+    border-top: 0;
+    padding: 10px;
+    text-align: center;
     margin: 0 0px 20px 0px;
 }
  
