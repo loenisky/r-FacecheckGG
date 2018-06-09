@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bearblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -5px;
+}
+
+.sprite-beargray {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -265px;
+}
+
+.sprite-bearpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -525px;
+}
+
+.sprite-facechecklogo {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -785px;
+}
+
+.sprite-meepsblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -995px;
+}
+
+.sprite-meepsgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -1255px;
+}
+
+.sprite-meepspurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -1515px;
+}
+
+.sprite-minionblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -1775px;
+}
+
+.sprite-minionpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -2035px;
+}
+
+.sprite-minionred {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -2295px;
+}
+
+.sprite-poroblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -2555px;
+}
+
+.sprite-poropurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -2815px;
+}
+
+.sprite-porored {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -3075px;
+}
+
+.sprite-raptorsblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -3335px;
+}
+
+.sprite-raptorsgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -3595px;
+}
+
+.sprite-raptorspurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -3855px;
+}
+
+.sprite-voidblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -4115px;
+}
+
+.sprite-voidgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -4375px;
+}
+
+.sprite-voidpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -4635px;
+}
+
+.sprite-wolvesblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -4895px;
+}
+
+.sprite-wolvesgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -5155px;
+}
+
+.sprite-wolvespurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -5415px;
+}
