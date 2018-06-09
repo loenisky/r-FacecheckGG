@@ -1,0 +1,179 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bearblue {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -5px;
+}
+
+.sprite-beargray {
+    width: 250px;
+    height: 250px;
+    background-position: -265px -5px;
+}
+
+.sprite-bearpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -525px -5px;
+}
+
+.sprite-bug {
+    width: 128px;
+    height: 128px;
+    background-position: -785px -5px;
+}
+
+.sprite-comments {
+    width: 128px;
+    height: 128px;
+    background-position: -923px -5px;
+}
+
+.sprite-email {
+    width: 128px;
+    height: 128px;
+    background-position: -1061px -5px;
+}
+
+.sprite-light-bulb {
+    width: 128px;
+    height: 128px;
+    background-position: -1199px -5px;
+}
+
+.sprite-meepsblue {
+    width: 250px;
+    height: 250px;
+    background-position: -785px -143px;
+}
+
+.sprite-meepsgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -1045px -143px;
+}
+
+.sprite-meepspurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -403px;
+}
+
+.sprite-minionblue {
+    width: 250px;
+    height: 250px;
+    background-position: -265px -403px;
+}
+
+.sprite-minionpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -525px -403px;
+}
+
+.sprite-minionred {
+    width: 250px;
+    height: 250px;
+    background-position: -785px -403px;
+}
+
+.sprite-pencil {
+    width: 128px;
+    height: 128px;
+    background-position: -1045px -403px;
+}
+
+.sprite-poroblue {
+    width: 250px;
+    height: 250px;
+    background-position: -1045px -541px;
+}
+
+.sprite-poropurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -801px;
+}
+
+.sprite-porored {
+    width: 250px;
+    height: 250px;
+    background-position: -265px -801px;
+}
+
+.sprite-raptorsblue {
+    width: 250px;
+    height: 250px;
+    background-position: -525px -801px;
+}
+
+.sprite-raptorsgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -785px -801px;
+}
+
+.sprite-raptorspurple {
+    width: 250px;
+    height: 250px;
+    background-position: -1045px -801px;
+}
+
+.sprite-snoo {
+    width: 400px;
+    height: 555px;
+    background-position: -1337px -5px;
+}
+
+.sprite-speaker {
+    width: 128px;
+    height: 128px;
+    background-position: -1305px -570px;
+}
+
+.sprite-trophy {
+    width: 128px;
+    height: 128px;
+    background-position: -1443px -570px;
+}
+
+.sprite-voidblue {
+    width: 250px;
+    height: 250px;
+    background-position: -1305px -708px;
+}
+
+.sprite-voidgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -1305px -968px;
+}
+
+.sprite-voidpurple {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -1228px;
+}
+
+.sprite-wolvesblue {
+    width: 250px;
+    height: 250px;
+    background-position: -265px -1228px;
+}
+
+.sprite-wolvesgreen {
+    width: 250px;
+    height: 250px;
+    background-position: -525px -1228px;
+}
+
+.sprite-wolvespurple {
+    width: 250px;
+    height: 250px;
+    background-position: -785px -1228px;
+}

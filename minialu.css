@@ -1275,7 +1275,7 @@ body:not(.submit-page) .tabmenu::after {display: none;}
     margin-left: 10px;
  }
 
-#newlink-with-image-upload .image-upload-drop-target {
+.res #newlink-with-image-upload .image-upload-drop-target {
     position: relative;
     content: '';
     width: 100%;
@@ -2258,7 +2258,7 @@ div.leavemoderator {
     margin: 0 0px;
     font-size: 13px!important;
     font-weight: bold;
-    background: #444;
+    background: #2c8c3e;
     text-align: center;
     border-radius: 5px 5px 0 0;
 }
@@ -2280,14 +2280,16 @@ div.leavemoderator {
 .side .md h2 + ul {
     list-style-position: outside;
     border-radius: 0 0 5px 5px;
-    background:#efefef;
+    background: #212121;
+    border: 1px solid #2c8c3e;
+    color: #5c5c5c;
     border-top: 0;
-    padding: 10px 10px 10px 26px;
+    padding: 10px 10px 0px 26px;
     margin: 0 0px 20px 0px;
 }
  
  
-.side .md h2 + ul li { margin-bottom: 10px; font-size: 95%; }
+.side .md h2 + ul li { margin-bottom: 10px; font-size: 105%; }
  
 .side .usertext {margin-top: 20px;}
  
