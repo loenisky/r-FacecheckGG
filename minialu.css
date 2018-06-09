@@ -539,7 +539,7 @@ body {font-family: 'Varela Round', sans-serif;}
 }
 
 .thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self {
-    background: url(%%spritesheet%%) !important;
+    background: url(%%icons%%) !important;
     background-size: 50px 502px !important;
 }
  
@@ -552,11 +552,11 @@ body {font-family: 'Varela Round', sans-serif;}
  
 #mail.nohavemail,#mail.havemail,#modmail.nohavemail,#modmail.havemail,#header-bottom-right a.pref-lang,.res #header-bottom-right .gearIcon {width: 20px; height: 20px; vertical-align: middle !important;}
  
-.thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self {width: 75px; height: 50px; background-size: 75px 753px !important;}
+.thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self {width: 85px; height: 50px; background-size: 75px 753px !important;}
  
 .stickied .thumbnail.self {background-position: 0 -265px !important;}
-.thumbnail.self {background-position: 0 -345px !important}
-.thumbnail.default {background-position: 0 -426px !important}
+.thumbnail.self {background-position: 0 -303px !important}
+.thumbnail.default {background-position: 0 -303px !important}
 .thumbnail.nsfw {background-position: 0 -506px !important}
  
 .arrow.up {background-position: 3px -685px !important; background-size: 37.5px 376.5px !important;}
