@@ -533,7 +533,15 @@ body {font-family: 'Varela Round', sans-serif;}
  
 /*ICONOGRAPHY*/
  
-#mail.nohavemail,#mail.havemail, #modmail.havemail,#modmail.nohavemail, .thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self, #header-bottom-right a.pref-lang, .res #header-bottom-right .gearIcon, .arrow.upmod, .arrow.downmod, .arrow.up, .arrow.down,.expando-button {background: url(%%spritesheet%%) !important; background-size: 50px 502px !important;}
+#mail.nohavemail,#mail.havemail, #modmail.havemail,#modmail.nohavemail, #header-bottom-right a.pref-lang, .res #header-bottom-right .gearIcon, .arrow.upmod, .arrow.downmod, .arrow.up, .arrow.down,.expando-button {
+    background: url(%%spritesheet%%) !important; 
+    background-size: 50px 502px !important;
+}
+
+.thumbnail.nsfw, .thumbnail.self, .thumbnail.default, .stickied .thumbnail.self {
+    background: url(%%spritesheet%%) !important;
+    background-size: 50px 502px !important;
+}
  
 #mail.nohavemail {background-position: 0 0}
 #mail.havemail {background-position: 0 -58.66px !important;}
@@ -1301,6 +1309,16 @@ body:not(.submit-page) .tabmenu::after {display: none;}
 }
  
 .titlebox {text-align: center;}
+
+.titlebox h1.redditname a {
+    content: "";
+    font-size: 0;
+}
+
+.titlebox h1.redditname a::before {
+    font-size: 20px;
+    content:"Welcome to /r/FCGG! (:";
+}
  
 .submit-page .side, .submit-page .content h1 {display: none !important;}
  
@@ -1484,6 +1502,11 @@ body {background: #212121;}
     border: 0px none !important;
     padding: 5px;
     color: #fff;
+ }
+
+.res .usertext.border .usertext-body {
+    background-color: #212121;
+    padding-left: 5px;
  }
  
 /*RES Never Ending Reddit*/

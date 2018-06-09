@@ -4,56 +4,62 @@
     display: block;
 }
 
-.sprite-bug {
+.sprite-announcement {
     width: 128px;
     height: 128px;
     background-position: -5px -5px;
 }
 
-.sprite-comments-o {
-    width: 128px;
-    height: 128px;
-    background-position: -143px -5px;
-}
-
-.sprite-email {
-    width: 128px;
-    height: 128px;
-    background-position: -281px -5px;
-}
-
-.sprite-f091 {
+.sprite-bell {
     width: 128px;
     height: 128px;
     background-position: -5px -143px;
 }
 
-.sprite-f0a1 {
-    width: 128px;
-    height: 128px;
-    background-position: -143px -143px;
-}
-
-.sprite-f0c0 {
-    width: 128px;
-    height: 128px;
-    background-position: -281px -143px;
-}
-
-.sprite-f0f3 {
+.sprite-bug {
     width: 128px;
     height: 128px;
     background-position: -5px -281px;
 }
 
-.sprite-light-bulb {
+.sprite-comment {
     width: 128px;
     height: 128px;
-    background-position: -143px -281px;
+    background-position: -5px -419px;
+}
+
+.sprite-comment {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -557px;
+}
+
+.sprite-group {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -695px;
+}
+
+.sprite-idea {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -833px;
+}
+
+.sprite-message {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -971px;
 }
 
 .sprite-pencil {
     width: 128px;
     height: 128px;
-    background-position: -281px -281px;
+    background-position: -5px -1109px;
+}
+
+.sprite-trophy {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -1247px;
 }
