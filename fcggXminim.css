@@ -557,7 +557,7 @@ body {font-family: 'Varela Round', sans-serif;}
 .stickied .thumbnail.self {background-position: 0 -265px !important;}
 .thumbnail.self {background-position: 0 -303px !important}
 .thumbnail.default {background-position: 0 -303px !important}
-.thumbnail.nsfw {background-position: 0 -506px !important}
+.thumbnail.nsfw {background-position: 0 -150px !important}
  
 .arrow.up {background-position: 3px -685px !important; background-size: 37.5px 376.5px !important;}
 .arrow.upmod {background-position: 2.3px -666px !important; background-size: 37.5px 376.5px !important;}
@@ -601,8 +601,8 @@ body.res #header-bottom-right #mail.havemail {top: -1px !important;}
     transition:200ms;
 }
  
-.arrow.upmod {background-color: orangered !important; margin-bottom: 5px;}
-.arrow.downmod {background-color: #2B9BDB !important; margin-top: 5px;}
+.arrow.upmod {background-color: #2c8c3e !important; margin-bottom: 5px;}
+.arrow.downmod {background-color: #cb3e4b !important; margin-top: 5px;}
  
 /*EXPANDO BUTTONS*/
 .expando-button,
@@ -2203,8 +2203,8 @@ body:not(.search-page) #search input[type=text] {
  
  
  /*LINK SCORES TYPE*/
-.link .score.likes {color: #FF5F3F;}
-.link .score.dislikes {color: #2B9BDB;}
+.link .score.likes {color: #2c8c3e;}
+.link .score.dislikes {color: #cb3e4b;}
 .score.unvoted {color: #666;}
 div.midcol.likes, div.midcol.dislikes, div.midcol.unvoted,div.reddit-entry {padding: 0px 10px;}
  
